@@ -1,0 +1,10 @@
+namespace Game.Equipment
+{
+    [System.Serializable]
+    public class Parachute : Item
+    {
+        public Parachute(string name) : base(name)
+        {
+        }
+    }
+}
